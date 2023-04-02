@@ -1,0 +1,7 @@
+
+---
+- name: Print another debug message
+  hosts: all
+  tasks: 
+    - debug:
+        msg: "from the project root: {{ansible_hostname}}!"
