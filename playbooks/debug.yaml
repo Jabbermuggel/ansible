@@ -1,0 +1,6 @@
+---
+- name: Print a debug message
+  hosts: all
+  tasks: 
+    - debug:
+        msg: "Welcome to host {{ansible_hostname}}!"
